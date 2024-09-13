@@ -1,0 +1,70 @@
+/* @tailwind base; */
+
+.m-4 {
+  margin: 1rem
+}
+
+.box-border {
+  box-sizing: border-box
+}
+
+.w-40 {
+  width: 10rem
+}
+
+.w-full {
+  width: 100%
+}
+
+.border {
+  border-width: 1px
+}
+
+.bg-rose-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(244 63 94 / var(--tw-bg-opacity))
+}
+
+.bg-rose-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 164 175 / var(--tw-bg-opacity))
+}
+
+.p-4 {
+  padding: 1rem
+}
+
+.p-8 {
+  padding: 2rem
+}
+
+@media (min-width: 1280px) {
+  .xl\:bg-green-300 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(134 239 172 / var(--tw-bg-opacity))
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:box-border {
+    box-sizing: border-box
+  }
+
+  .\32xl\:w-full {
+    width: 100%
+  }
+
+  .\32xl\:bg-rose-300 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(253 164 175 / var(--tw-bg-opacity))
+  }
+
+  .\32xl\:bg-green-300 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(134 239 172 / var(--tw-bg-opacity))
+  }
+
+  .\32xl\:p-8 {
+    padding: 2rem
+  }
+}
