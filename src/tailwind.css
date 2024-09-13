@@ -1,3 +1,15 @@
 /* @tailwind base; */
 @tailwind components;
 @tailwind utilities;
+
+
+@layer utilities {
+    .amincxo {
+        border: 10px dashed black;
+        border-radius: 20px;
+        box-shadow: 5px 20px 20px black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,70 +1,120 @@
 /* @tailwind base; */
 
-.m-4 {
-  margin: 1rem
+.m-auto {
+  margin: auto;
 }
 
 .box-border {
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
-.w-40 {
-  width: 10rem
+.w-3\/5 {
+  width: 60%;
 }
 
-.w-full {
-  width: 100%
-}
-
-.border {
-  border-width: 1px
-}
-
-.bg-rose-500 {
+.bg-teal-700 {
   --tw-bg-opacity: 1;
-  background-color: rgb(244 63 94 / var(--tw-bg-opacity))
+  background-color: rgb(15 118 110 / var(--tw-bg-opacity));
 }
 
-.bg-rose-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(253 164 175 / var(--tw-bg-opacity))
+.amincxo {
+  border: 10px dashed black;
+  border-radius: 20px;
+  box-shadow: 5px 20px 20px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.p-4 {
-  padding: 1rem
+@media (min-width: 640px) {
+  .sm\:m-auto {
+    margin: auto;
+  }
+
+  .sm\:w-3\/5 {
+    width: 60%;
+  }
+
+  .sm\:bg-stone-500 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(120 113 108 / var(--tw-bg-opacity));
+  }
+
+  .sm\:amincxo {
+    border: 10px dashed black;
+    border-radius: 20px;
+    box-shadow: 5px 20px 20px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
-.p-8 {
-  padding: 2rem
+@media (min-width: 768px) {
+  .md\:m-auto {
+    margin: auto;
+  }
+
+  .md\:w-3\/5 {
+    width: 60%;
+  }
+
+  .md\:bg-fuchsia-400 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(232 121 249 / var(--tw-bg-opacity));
+  }
+
+  .md\:amincxo {
+    border: 10px dashed black;
+    border-radius: 20px;
+    box-shadow: 5px 20px 20px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:m-auto {
+    margin: auto;
+  }
+
+  .lg\:w-3\/5 {
+    width: 60%;
+  }
+
+  .lg\:bg-amber-600 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(217 119 6 / var(--tw-bg-opacity));
+  }
 }
 
 @media (min-width: 1280px) {
-  .xl\:bg-green-300 {
+  .xl\:m-auto {
+    margin: auto;
+  }
+
+  .xl\:w-3\/5 {
+    width: 60%;
+  }
+
+  .xl\:bg-gray-600 {
     --tw-bg-opacity: 1;
-    background-color: rgb(134 239 172 / var(--tw-bg-opacity))
+    background-color: rgb(75 85 99 / var(--tw-bg-opacity));
   }
 }
 
 @media (min-width: 1536px) {
-  .\32xl\:box-border {
-    box-sizing: border-box
+  .\32xl\:m-auto {
+    margin: auto;
   }
 
-  .\32xl\:w-full {
-    width: 100%
+  .\32xl\:w-3\/4 {
+    width: 75%;
   }
 
-  .\32xl\:bg-rose-300 {
+  .\32xl\:bg-rose-500 {
     --tw-bg-opacity: 1;
-    background-color: rgb(253 164 175 / var(--tw-bg-opacity))
-  }
-
-  .\32xl\:bg-green-300 {
-    --tw-bg-opacity: 1;
-    background-color: rgb(134 239 172 / var(--tw-bg-opacity))
-  }
-
-  .\32xl\:p-8 {
-    padding: 2rem
+    background-color: rgb(244 63 94 / var(--tw-bg-opacity));
   }
 }
